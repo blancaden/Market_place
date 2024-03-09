@@ -1,0 +1,168 @@
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.adminform{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(217, 217, 217, 1);
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.contentform{
+    margin-top: 20px;
+    
+}
+
+.titleform{
+    margin-left: 120px;
+}
+
+.formoption{
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 70px;
+  
+}
+
+.imgusur{
+    width: 320px;
+
+}
+
+.formuser{
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+.userdescription{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    justify-content: space-between;
+    margin-left: 30px;
+    
+}
+
+
+
+.descriptioninput{
+    width: 320px;
+    height: 200px;
+}
+
+.icondescrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 72px;
+    margin-top: 50px;
+}
+
+.iconsusur{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 6px;
+    width: 35px;
+    height: 220px;
+}
+
+.tlfuser{
+   display: flex;
+   flex-direction: column;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+   margin-right: 60px;
+   margin-left: 30px;
+   margin-top: 20px;
+}
+
+
+
+.number{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    
+}
+
+
+#price, #category, .inputFormotion, #stock, .tlfnumber {
+    border-radius: 10px;
+    border: none;
+    width: 280px;
+  
+}
+
+
+
+textarea{
+    border-radius: 10px;
+    width: 280px;
+    border: none;
+}
+
+select{
+    width: 225px;
+}
+
+.adminbutton{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(2, 193, 44, 1);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 40px;
+    border: none;
+  margin-left: 200px;
+  margin-top: -10px;
+    
+}
+
+.row{
+    justify-content: center;
+}
+
+@media screen and (max-width: 834px) {
+    .cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .adminform{
+        width: 380px;
+    }
+    .adminbutton{
+        margin-top: -2px;
+    }
+
+    .descriptioninput{
+        width: 295px;
+    }
+
+}
+
